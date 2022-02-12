@@ -1,0 +1,86 @@
+.parallax {
+    background-image: url("../IMGS/jumbotron.jpg");
+    min-height: 980px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+/* CSS for index.html */
+
+
+#second {
+    /* background-image: url("../IMGS/second-bg-home.jpg"); */
+
+    min-height: 960px;
+ 
+
+
+}
+
+#third {
+    /* background-image: url("../IMGS/second-bg-home.jpg"); */
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#bg-kata{
+background-image: url(../IMGS/history-katana.png);
+background-size: cover;
+min-height: 450px;
+background-position: center;
+}
+
+/* CSS for history.html */
+
+#history{
+       background-image: url("../IMGS/katana-bg-history.jpg");
+
+       min-height: 950px;
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+
+
+
+
+
+
+/* CSS for contact.html */
+
+#contact{
+    background: gray;
+    min-height: 950px;
+    background-image: url("../IMGS/samurai-contact.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+   
+
+}
+
+
+
+
+/* CSS for pricing.html */
+#pricing{
+    /* background-image: url("../IMGS/second-bg-home.jpg"); */
+
+    min-height: 960px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
