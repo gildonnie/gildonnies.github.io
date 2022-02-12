@@ -40,6 +40,30 @@ min-height: 450px;
 background-position: center;
 }
 
+.bg-lgray{
+    background-color: #ECEBEB;
+}
+
+#quotes{
+    background-color: #ECEBEB;
+   
+ 
+}
+
+
+.cards {
+    transition: all 0.2s ease;
+    cursor: pointer
+}
+
+.cards:hover {
+    transform: scale(1.07)
+}
+
+#disover{
+    
+}
+
 /* CSS for history.html */
 
 #history{
@@ -60,15 +84,13 @@ background-position: center;
 /* CSS for contact.html */
 
 #contact{
-    background: gray;
-    min-height: 950px;
-    background-image: url("../IMGS/samurai-contact.svg");
-    background-attachment: fixed;
-    background-position: center;
+    
+    min-height: 980px;
+    background-image: url("../IMGS/wave-bottm.svg");
+    background-color: rgb(236, 235, 235);
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size:contain;
-   
-
+    
 }
 
 
@@ -83,4 +105,14 @@ background-position: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#price{
+    
+    min-height: 980px;
+    background-image: url("../IMGS/wave.svg");
+    background-color: rgb(236, 235, 235);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
 }
