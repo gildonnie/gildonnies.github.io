@@ -1,11 +1,15 @@
 .parallax {
-    background-image: url("../IMGS/jumbotron.jpg");
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../IMGS/jumbotron.jpg");
     min-height: 980px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 
@@ -44,11 +48,6 @@ background-position: center;
     background-color: #ECEBEB;
 }
 
-#quotes{
-    background-color: #ECEBEB;
-   
- 
-}
 
 
 .cards {
@@ -60,19 +59,38 @@ background-position: center;
     transform: scale(1.07)
 }
 
+.text-alta{
+    font-family: 'Alata', sans-serif;
+}
 
+.text-elite{
+    font-family: 'Special Elite', cursive;
+}
+.text-fira{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.text-playfair{
+    font-family: 'Playfair Display', serif;
+}
 
 /* CSS for history.html */
 
 #history{
-       background-image: url("../IMGS/katana-bg-history.jpg");
-
-       min-height: 950px;
+       background:
+       linear-gradient(
+         rgba(0, 0, 0, 0.5),
+         rgba(0, 0, 0, 0.5)
+       ),
+       url("../IMGS/katana-bg-history.jpg");
+       min-height: 980px;
        background-attachment: fixed;
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
 }
+
+
 
 
 
@@ -85,7 +103,6 @@ background-position: center;
     
     min-height: 980px;
     background-image: url("../IMGS/wave-bottm.svg");
-    background-color: rgb(236, 235, 235);
     background-position: bottom;
     background-repeat: no-repeat;
     
@@ -96,8 +113,6 @@ background-position: center;
 
 /* CSS for pricing.html */
 #pricing{
-    /* background-image: url("../IMGS/second-bg-home.jpg"); */
-
     min-height: 960px;
     background-attachment: fixed;
     background-position: center;
@@ -109,7 +124,6 @@ background-position: center;
     
     min-height: 980px;
     background-image: url("../IMGS/wave.svg");
-    background-color: rgb(236, 235, 235);
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
