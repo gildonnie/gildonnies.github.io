@@ -36,6 +36,13 @@
 
 
 }
+#about{
+    max-height: 960px;
+}
+
+#about1{
+    min-height: 760px;
+}
 
 #bg-kata{
 background-image: url(../IMGS/history-katana.png);
@@ -74,6 +81,9 @@ background-position: center;
     font-family: 'Playfair Display', serif;
 }
 
+.text-exo{
+    font-family: 'Exo', sans-serif;
+}
 /* CSS for history.html */
 
 #history{
@@ -96,29 +106,16 @@ background-position: center;
 
 
 
-
 /* CSS for contact.html */
 
 #contact{
-    
-    min-height: 980px;
-    background-image: url("../IMGS/wave-bottm.svg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    
+    margin-bottom: 75px;
 }
-
 
 
 
 /* CSS for pricing.html */
-#pricing{
-    min-height: 960px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 #price{
     
@@ -127,4 +124,6 @@ background-position: center;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
 }
+
