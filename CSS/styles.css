@@ -1,3 +1,8 @@
+/* CSS for index.html */
+
+
+/* jumbotron with background video with overlay */
+
 .parallax {
     background:
         linear-gradient(rgba(0, 0, 0, 0.5),
@@ -11,40 +16,37 @@
 }
 
 
-
-/* CSS for index.html */
-
-
-.section{
+.section {
     position: relative;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     overflow: hidden;
     background-color: #212529;
 }
 
-.section h1{
+.section h1 {
     text-align: center;
-    /* font-size: 6rem; */
     margin: 100px;
     z-index: 1;
     color: white;
-} 
+    font-size: 40px;
+}
 
 
 
-.video-container{
+.video-container {
     position: absolute;
-   
+
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
 }
-.cover-overlay{
+
+.cover-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -54,46 +56,16 @@
     opacity: .25;
 }
 
-
-
-#second {
-    /* background-image: url("../IMGS/second-bg-home.jpg"); */
-
-    min-height: 960px;
-}
-
-
-#third {
-    /* background-image: url("../IMGS/second-bg-home.jpg"); */
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-}
+/* size of row for about section */
 
 #about {
     min-height: 700px;
 }
 
-#about1 {
-    min-height: 760px;
-}
-
-#bg-kata {
-    background-image: url(../IMGS/history-katana.png);
-    background-size: cover;
-    min-height: 450px;
-    background-position: center;
-}
-
-.bg-lgray {
-    background-color: #ECEBEB;
-}
 
 
+
+/* discover section animation for cards */
 
 .cards {
     transition: all 0.2s ease;
@@ -103,6 +75,102 @@
 .cards:hover {
     transform: scale(1.07)
 }
+
+
+
+/* CSS for history.html */
+
+/* jumbo image with dark overlay */
+#history {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("../IMGS/katana-bg-history.jpg");
+    min-height: 980px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* CSS for contact.html */
+
+
+
+/* CSS for pricing.html */
+
+/* wave svg  */
+#price {
+
+    min-height: 980px;
+    background-image: url("../IMGS/wave.svg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* side navbar from google*/
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #212529;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 18px 18px 18px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #831d1d;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #c56262;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+
+/* custom fonts and background colors  */
+.bg-lgray {
+    background-color: #ECEBEB;
+}
+
 
 .text-alta {
     font-family: 'Alata', sans-serif;
@@ -124,92 +192,6 @@
     font-family: 'Exo', sans-serif;
 }
 
-.text-ama{
+.text-ama {
     font-family: 'Amatic SC', cursive;
 }
-
-/* CSS for history.html */
-
-#history {
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url("../IMGS/katana-bg-history.jpg");
-    min-height: 980px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-
-
-
-
-/* CSS for contact.html */
-
-#contact {
-    margin-bottom: 75px;
-}
-
-
-
-/* CSS for pricing.html */
-
-
-#price {
-
-    min-height: 980px;
-    background-image: url("../IMGS/wave.svg");
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-
-/* side navbar */
-
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #212529;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 100px;
-  }
-  
-  .sidenav a {
-    padding: 18px 18px 18px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #831d1d;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: #c56262;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
